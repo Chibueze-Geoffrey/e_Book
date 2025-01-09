@@ -1,0 +1,6 @@
+@E_Book_Recommendation.CronJob_HostAddress = http://localhost:5135
+
+GET {{E_Book_Recommendation.CronJob_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

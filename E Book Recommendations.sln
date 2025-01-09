@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Book_Recommendation.Api", "E_Book_Recommendation.Api\E_Book_Recommendation.Api.csproj", "{E6527749-81F3-43C4-A18C-CE2CE6995102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Book_Recommendation.Common", "E_Book_Recommendation.Common\E_Book_Recommendation.Common.csproj", "{A42FE24C-1C97-41F1-92F8-4826A575554A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Book_Recommendation.Business", "E_Book_Recommendation.Business\E_Book_Recommendation.Business.csproj", "{4584C452-F5AF-4CCC-BF31-1E19A8ACC661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Book_Recommendation.CronJob", "E_Book_Recommendation.CronJob\E_Book_Recommendation.CronJob.csproj", "{89A7A1DA-C5C8-438B-9216-0ECDB3B8DFF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Book_Recommendation.Data", "E_Book_Recommendation.Data\E_Book_Recommendation.Data.csproj", "{8EF565B1-768E-4291-9D3A-283817303A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_Book_Recommendation.Domain", "E_Book_Recommendation.Domain\E_Book_Recommendation.Domain.csproj", "{1E38E7C6-A208-42EC-B313-48583E6A234B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E_Book_Recommendation", "E_Book_Recommendation", "{23791600-8051-4B0F-8A3A-6DCCB9CDCF9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{651C7103-FF23-47E2-BB5F-A470E5C8AD6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6527749-81F3-43C4-A18C-CE2CE6995102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6527749-81F3-43C4-A18C-CE2CE6995102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6527749-81F3-43C4-A18C-CE2CE6995102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6527749-81F3-43C4-A18C-CE2CE6995102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42FE24C-1C97-41F1-92F8-4826A575554A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42FE24C-1C97-41F1-92F8-4826A575554A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42FE24C-1C97-41F1-92F8-4826A575554A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42FE24C-1C97-41F1-92F8-4826A575554A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4584C452-F5AF-4CCC-BF31-1E19A8ACC661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4584C452-F5AF-4CCC-BF31-1E19A8ACC661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4584C452-F5AF-4CCC-BF31-1E19A8ACC661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4584C452-F5AF-4CCC-BF31-1E19A8ACC661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A7A1DA-C5C8-438B-9216-0ECDB3B8DFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A7A1DA-C5C8-438B-9216-0ECDB3B8DFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A7A1DA-C5C8-438B-9216-0ECDB3B8DFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A7A1DA-C5C8-438B-9216-0ECDB3B8DFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF565B1-768E-4291-9D3A-283817303A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF565B1-768E-4291-9D3A-283817303A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF565B1-768E-4291-9D3A-283817303A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF565B1-768E-4291-9D3A-283817303A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E38E7C6-A208-42EC-B313-48583E6A234B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E38E7C6-A208-42EC-B313-48583E6A234B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E38E7C6-A208-42EC-B313-48583E6A234B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E38E7C6-A208-42EC-B313-48583E6A234B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6527749-81F3-43C4-A18C-CE2CE6995102} = {23791600-8051-4B0F-8A3A-6DCCB9CDCF9C}
+		{A42FE24C-1C97-41F1-92F8-4826A575554A} = {23791600-8051-4B0F-8A3A-6DCCB9CDCF9C}
+		{4584C452-F5AF-4CCC-BF31-1E19A8ACC661} = {23791600-8051-4B0F-8A3A-6DCCB9CDCF9C}
+		{89A7A1DA-C5C8-438B-9216-0ECDB3B8DFF6} = {23791600-8051-4B0F-8A3A-6DCCB9CDCF9C}
+		{8EF565B1-768E-4291-9D3A-283817303A02} = {23791600-8051-4B0F-8A3A-6DCCB9CDCF9C}
+		{1E38E7C6-A208-42EC-B313-48583E6A234B} = {23791600-8051-4B0F-8A3A-6DCCB9CDCF9C}
+	EndGlobalSection
+EndGlobal
